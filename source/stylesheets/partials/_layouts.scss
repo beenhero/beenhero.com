@@ -1,0 +1,102 @@
+body {
+  position: relative;
+  color: $textColor;
+  background-color: $sidebarBgColor;
+  font-size: $baseFontSize;
+  line-height: $baseLineHeight;
+  font-family: $baseFontFamily;
+  margin: 0;
+}
+
+a {
+  color: $linkColor;
+  text-decoration: none;
+  @include single-transition(all, .2s, ease-in-out);
+  &:visited { color: $linkColor; }
+  &:hover { color: lighten($linkColor, 15%); }
+}
+p {
+  margin: 0 0 1.5em 0;
+}
+
+.sidebar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: $sideWidth;
+  padding: 10px 20px;
+  color: #f8f8f8;
+  font-size: 13px;
+  height: 100%;
+  min-height: 100%;
+  ul { 
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  a {
+    color: $sidebarLinkColor;
+    line-height: 30px;
+    &:hover {
+      color: lighten($sidebarLinkColor, 30%);
+    }
+  }
+  .site-name {
+    font-size: 2.4em;
+    line-height: 40px;
+    margin: 10px auto;
+    a {
+      color: $mainBgColor;
+      &:hover {
+        color: $sidebarLinkColor;
+      }
+    }
+  }
+  .site-desc {
+    font-size: 11px;
+    font-weight: normal;
+    color: #495863;
+    color: rgba(255,255,255,.5);
+  }
+  .social-connect {
+    margin: 20px auto;
+    li {
+      display: inline-block;
+      margin-right: 8px;
+      i { font-size: 14px; }
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+  .block {
+    padding: 10px;
+    margin: -6px;
+    font-size: 12px;
+    line-height: 1.5;
+    text-align: center;
+    background-color: rgba(255,255,255,.15);
+    .block-title {
+      font-size: 12px;
+      margin: 0;
+    }
+    .block-cnt { margin: 0; }
+  }
+  .copyright {
+    position: fixed;
+    bottom: 0;
+    font-size: 12px;
+    color: #495863;
+    color: rgba(255,255,255,.25);
+    p { margin: 0 0 15px; }
+  }
+}
+
+.main {
+  background-color: $mainBgColor;
+  margin: 0 0 0 $sideWidth+40;
+  padding: $asideGap;
+  height: 100%;
+  min-height: 1000px;
+  @include clearfix;
+}

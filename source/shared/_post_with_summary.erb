@@ -1,0 +1,37 @@
+<header>
+  <h2 class="title">
+    <%= link_to article.title, article %>
+  </h2>
+</header>
+
+<aside class="aside-block">
+  <ul class="meta">
+    <!-- <li class="author-photo">
+      <a href="<%= author(article.data['author']).link %>">
+        <%= image_tag author(article.data['author']).avatar %>
+      </a>
+    </li>
+    <li class="author">
+     by <%= author(article.data['author']).name %>
+    </li> -->
+    <li class="date">
+      <%= article.date.strftime("%b %d, %Y") %>
+    </li>
+    <li class="tags">
+      <% article.tags.each do |tag| %>
+        <%= link_to tag, tag_path(tag) %>
+      <% end %>
+    </li>
+  </ul>
+</aside>
+
+<div class="content">
+  <%= article.summary %>
+
+  <p>
+    ......
+  </p>
+  <p>
+    <%= link_to "Read more →", article %>
+  </p>
+</div>

@@ -1,0 +1,30 @@
+/* Typography */
+
+$sansFontFamily:        "Helvetica Neue", Helvetica, Arial, 'Hiragino Sans GB', STHeiti, 'WenQuanYi Micro Hei', SimSun, sans-serif !default;
+$serifFontFamily:       Georgia, "Times New Roman", Times, serif !default;
+
+$monoFontFamily:        Monaco, Menlo, Consolas, "Courier New", monospace !default;
+
+$baseFontSize:          16px !default;
+$baseFontFamily:        $sansFontFamily !default;
+$baseLineHeight:        30px !default;
+$altFontFamily:         $serifFontFamily !default;
+
+$headingsFontFamily:    inherit !default; // empty to use BS default, $baseFontFamily
+$headingsFontWeight:    bold !default;    // instead of browser default, bold
+$headingsColor:         inherit !default; // empty to use BS default,
+
+/* Colors */
+$textColor:             #001d33;
+$linkColor:             #3172A5;
+$sidebarLinkColor: 		#d8ab36;
+$asideColor: #aaa591;
+
+$sidebarBgColor: #203240;
+$mainBgColor: #f2eee1;
+
+/* Gutters */
+$sideWidth: 80px;
+$copyMaxWidth: 600px;
+$asideWidth: 320px;
+$asideGap: 40px;

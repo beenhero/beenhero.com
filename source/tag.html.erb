@@ -1,0 +1,25 @@
+---
+priority: 0.7
+pageable: true
+per_page: 12
+---
+<h1 class="tag-page-title">Articles tagged '<em><%= tagname %></em>'</h1>
+
+<div id="posts">
+  <% page_articles.each_with_index do |article, i| %>
+    <article class="post">
+      <%= partial 'shared/post_with_summary', locals: { article: article } %>
+    </article>
+  <% end %>
+  
+  <% if paginate %>
+    <ul class="pager">
+      <% if prev_page %>
+        <li class="previous"><%= link_to "&larr; Newer", prev_page %></li>
+      <% end %>
+      <% if next_page %>
+        <li class="next"><%= link_to "Older &rarr;", next_page %></li>
+      <% end %>
+    </ul>
+  <% end %>
+</div>
