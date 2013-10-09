@@ -137,7 +137,7 @@
         &.stretch {
           width: auto;
           img {
-            max-width: $asideWidth - $asideGap*2 + $copyMaxWidth;
+            max-width: 100%;
             margin-right: $asideGap;
           }
           &:before {
@@ -235,7 +235,7 @@
   }
   .comments {
     margin: 0 0 2.8em 0;
-    padding: 0 0 1em 20%;
+    padding: 0 40px 1em $asideWidth;
     max-width: $copyMaxWidth;
   }
 }
