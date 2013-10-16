@@ -7,20 +7,16 @@ author: ben
 
 没有写博客有好多年了, 之所以再提起来写, 是因为公司同事都写得风风火火, 特别是最近几篇关于[SOHO](http://terrytai.com/articles/4-remote-full-time-job)/[远程工作](http://yedingding.com/2013/07/24/remote-team-the-things-you-should-know.html)的博客, 在微博及国内几家科技媒体上都反响热烈.
 
-<aside class="aside-block">
-  <blockquote>
-    <p>经常一不留神就从一个工作任务, 跑去看视频教程或维基百科了, 然后一整天就犹如贪食蛇一样拖下一串待读待学……</p>
-  </blockquote>
-</aside>
-
 而我最近开始执行村上春树工作作息方法, 几周下来颇有心得, 发过几条推特, 大家的好奇, 兴致, 疑问还挺多的, 用一篇博客来分享下自己的心得是最恰当不过的. 这个题材, 正好是我们 [Pragmatic.ly](//Pragmatic.ly) 团队成员最近在写的<远程工作><团队协作><工作效率>系列.
 
 那么这篇博客就来讲讲, 我是如何借鉴’村上春树’的作息方式来降低工作时间, 提高工作效率的.
 
 ## 远程工作的问题
 
-<aside class="aside">
-![我的工作台](2013-10-01-improve-remote-work-productivity/working.png)
+<aside class="aside-block">
+  <blockquote>
+    <p>经常一不留神就从一个工作任务, 跑去看视频教程或维基百科了, 然后一整天就犹如贪食蛇一样拖下一串待读待学……</p>
+  </blockquote>
 </aside>
 
 大家读过Dingding 的「[远程工作经验谈 — 如何适应及如何管理](http://yedingding.com/2013/07/24/remote-team-the-things-you-should-know.html)」 都应该知道, 我们团队几个人很早就开始了远程工作的方式. 我本人是07年自学了Rails 然后做了个练手项目后, 开始和朋友接美国的项目做. 也在Intridea 做过一年的consultancy, 去年开始和Dingding, Terry 一起创业做产品, 到现在算起来应该有5年的远程工作经验. 这五年下来, 远程工作带来的好处就不多说了, 我能总结出的最大的问题, 就是’效率’问题.
@@ -30,6 +26,10 @@ author: ben
 克服这些问题, 我经历了一个漫长的适应期, 期间通过学习[GTD](http://zh.wikipedia.org/wiki/GTD)/[番茄时间](http://en.wikipedia.org/wiki/Pomodoro_Technique)/[RescueTime](http://www.rescuetime.com/) 等一些时间管理方法, 配合相应辅助软件, 假以’意志力’的能量, 基本克服了这些问题.
 
 然而不料, 问题在去年’升级’了.
+
+<aside class="aside">
+![我的工作台](2013-10-01-improve-remote-work-productivity/working.png)
+</aside>
 
 12年春, 我和老婆搬进了老家的小山村居住. 女儿5月呱呱落地, 打破了小山村的宁静, 也打破了我驾驭时间的本领. 有孩子的朋友应该不用我说, 大概明白什么情况了. 对的, 一旦你的宝贝蛋儿降临, 原先主宰你行动的纲领, 衡量事情重要性的天平, 一下子颠覆了. 所有的一切都归小祖宗主宰了, 当然这是美好的变迁 :)
 
@@ -106,4 +106,8 @@ iPhone 应用. 如其名字, 这是一个记录时间的应用, 如果你想了�
 
 人生是一场马拉松, 不要因为年轻, 就过早的透支时间和身体. 希望大家都能掌握好自己身体和精力, 工作和家庭的阈值, 通过找到一个合适自己的工作作息方式, 去翻山越岭的同时不再失去沿途的风景.
 
-关于效率每个人都有自己独特的一些Tips, 欢迎大家留言或Email 来探讨.
+----
+<span class="footnotes">
+关于效率每个人都有自己独特的一些Tips, 欢迎大家留言或Email 来探讨. <br>
+习惯繁体中文的朋友, 请阅读 [Inside的转载](http://www.inside.com.tw/2013/10/16/remote-work-efficiency).
+</span>
