@@ -36,8 +36,8 @@
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-    <link href="/stylesheets/application.css?1381991556" media="screen" rel="stylesheet" type="text/css" />
-    <script src="/javascripts/application.js?1381991555" type="text/javascript"></script>
+    <link href="/stylesheets/application.css?1382019732" media="screen" rel="stylesheet" type="text/css" />
+    <script src="/javascripts/application.js?1382019732" type="text/javascript"></script>
 
   </head>
   <body class="404">
@@ -59,11 +59,12 @@
           <li><a href="//weibo.com/beenhero"><i class="icon-weibo"></i></a></li>
         </ul>
       </nav>
-<!-- 
-      <div class="block">
+      
+      <!-- Ad -->
+      <div class="block ad">
         <h4 class="block-title"><a href="//pragmatic.ly/">Pragmatic.ly</a></h4>
         <p class="block-cnt">团队协作工具</p>
-      </div> -->
+      </div>
 
     </aside>
 
