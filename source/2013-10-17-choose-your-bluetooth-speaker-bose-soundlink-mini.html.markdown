@@ -51,6 +51,10 @@ author: ben
 
 ##  入手 Bose SoundLink Mini 
 
+<aside class="aside">
+![Bose SoundLink Mini Speakers](2013-10-17/bose-soundlink-mini-speaker.jpg)
+</aside>
+
 迟迟没有下手一款， 直到国庆前在Twitter 上收到一条Retweet 链接，是[测评 Bose 新产品 SoundLink Mini](http://unwire.hk/2013/08/05/bose-soundlink-mini/headline/), 看了文章及试听了里面的对比音乐，马上就下定主意要入这款 Bose Mini 了。
 
 购买非常顺利，淘宝上找了一家做HK代购的，价格在15xx，顺丰2天到货。使用了几天了，应该也煲开了，来谈谈我个人的感受。
@@ -86,6 +90,13 @@ author: ben
 我总是觉得， 当你想选择一样东西来满足你某种需求的时候，很多选择会出现在你眼前，它们会困惑你。但总有一款最合适你的产品会在恰当的时候出现，这时候你会说： 哦，就是它！
 
 我也希望自己去打造这样的[产品](http://pragmatic.ly)，让合适它的人发现它，然后说： 对，就是你。
+
+
+----
+
+<span class="footnotes">
+经人提醒, 发现数码多里的[一篇中文测评](http://www.soomal.com/doc/10100004400.htm)非常专业, 推荐阅读.
+</span>
 
 
 <aside class="aside stretch">
