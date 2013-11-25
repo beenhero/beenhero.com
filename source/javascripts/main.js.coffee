@@ -23,3 +23,10 @@ setupEvent = ->
 
 $ ->
   setupEvent()
+  $(document).on "scroll", (e) ->
+    top = $(window).scrollTop()
+    ele = $('.announcement')
+    if top > 0
+      ele.addClass('sticky')
+    else
+      ele.removeClass('sticky')
