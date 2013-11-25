@@ -14,11 +14,11 @@ per_page: 5
 
   <% if paginate %>
     <ul class="pager">
-      <% if prev_page %>
-        <li class="previous"><%= link_to "&larr; Newer", prev_page %></li>
-      <% end %>
       <% if next_page %>
         <li class="next"><%= link_to "Older &rarr;", next_page %></li>
+      <% end %>
+      <% if prev_page %>
+        <li class="previous"><%= link_to "&larr; Newer", prev_page %></li>
       <% end %>
     </ul>
   <% end %>

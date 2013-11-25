@@ -5,6 +5,8 @@
     padding: 0 0 2em $asideWidth;
     border-bottom: 1px solid #DDD8CC;
     @include clearfix;
+    
+    > header { max-width: 640px; }
 
     .back-link {
       margin-left: -25%;

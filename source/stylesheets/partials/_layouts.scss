@@ -98,6 +98,29 @@ p {
   @include clearfix;
 }
 
+.pager {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  margin-top: -2.8em;
+  max-width: $copyMaxWidth + $asideWidth;
+  li {
+    list-style: none;
+    a { 
+      display: inline-block;
+      padding: 2.8em 5%;
+      border-right: 1px solid $hairLineColor;
+      &:hover {
+        background-color: darken($mainBgColor, 5%);
+      }
+    }
+    &.next a {
+      float: right;
+      border-left: 1px solid $hairLineColor;
+    }
+  }
+}
+
 .copyright {
   position: fixed;
   bottom: 0;
