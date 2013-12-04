@@ -29,6 +29,12 @@
 
   .main .comments { margin:0; padding: 0; }
   .main .post.profile .connect a { margin-right: 20px; }
+  .announcement { 
+    position: static;
+    p { padding: 0; }
+    .avatar { width: 20px; height:20px; margin-right: 3px; }
+    &.sticky { background: none; opacity: 1; }
+  }
 }
 
 @media print, screen and (max-width: 480px) {
