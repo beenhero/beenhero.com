@@ -13,12 +13,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>http://beenhero.com/my-first-experience-with-airbnb-in-china</loc>
-    <lastmod>2013-10-20T23:23:00+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>http://beenhero.com/offline</loc>
     <lastmod>2013-12-16T19:51:00+08:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -56,12 +50,6 @@
   </url>
   <url>
     <loc>http://beenhero.com/tags/.html</loc>
-    <lastmod>2013-12-16T00:00:00+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://beenhero.com/tags/travel</loc>
     <lastmod>2013-12-16T00:00:00+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
