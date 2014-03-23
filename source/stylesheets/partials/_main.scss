@@ -3,7 +3,7 @@
     font-size: 16px;
     margin: 0 0 2.8em 0;
     padding: 0 0 2em $asideWidth;
-    border-bottom: 1px solid #DDD8CC;
+    border-bottom: 1px solid $hairLineColor;
     @include clearfix;
     
     > header { max-width: 640px; }
@@ -82,7 +82,8 @@
       h3 { font-size: 1.3em; } // ~21px
       h4 { font-size: 1.1em; } // ~18px
       h5 { font-size: 1em; }  // ~16px
-      h6 { font-size: .85px; } // ~13px
+      h6 { font-size: .85em; } // ~13px
+      h2 { border-bottom: 1px solid $hairLineColor; padding-bottom: 10px; margin-top: 30px; }
       p { margin: 0 0 1.5em 0; }
       img { 
         margin: 1em auto; 
@@ -95,7 +96,7 @@
           li { margin-bottom: 12px; font-size: .85em; line-height: 1.5em; }
         }
       }
-      pre { color: #666; }
+      pre, code { color: #666; font-size: .85em; background-color: rgba(0,0,0,.1); padding: 3px 10px; }
       table {
         width: 90%;
         margin: 0 0 1.5em 25px;
