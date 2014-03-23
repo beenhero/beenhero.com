@@ -40,7 +40,7 @@
     <script src="/javascripts/application.js?1395590800" type="text/javascript"></script>
 
   </head>
-  <body class="tags tags_remote-work tags_remote-work_index">
+  <body class="tags tags_tech tags_tech_index">
     <aside class="sidebar">
       <h1 class="site-name"><a href="/">~/Bin</a></h1>
       <nav class="global-nav">
@@ -70,14 +70,14 @@
 
     <section class="main">
       <div class="container">
-        <h1 class="tag-page-title">Articles tagged '<em>Remote Work</em>'</h1>
+        <h1 class="tag-page-title">Articles tagged '<em>Tech</em>'</h1>
 
 <div id="posts">
   
     <article class="post">
       <header>
   <h2 class="title">
-    <a href="/improve-remote-work-productivity">远程工作之个人效率篇</a>
+    <a href="/icons-fonts-as-your-responsive-strategy">响应式Web图形篇 —— icon fonts 的探析及应用</a>
   </h2>
 </header>
 
@@ -92,41 +92,56 @@
      by Bin He
     </li> -->
     <li class="date">
-      Oct 01, 2013
+      Mar 19, 2014
     </li>
     <li class="tags">
       
-        <a href="/tags/productivity">Productivity</a>
+        <a href="/tags/tutorial">Tutorial</a>
       
-        <a href="/tags/remote-work">Remote Work</a>
+        <a href="/tags/tech">Tech</a>
+      
+        <a href="/tags/design">Design</a>
       
     </li>
   </ul>
 </aside>
 
 <div class="content">
-  <p>没有写博客有好多年了, 之所以再提起来写, 是因为公司同事都写得风风火火, 特别是最近几篇关于<a href="http://terrytai.com/articles/4-remote-full-time-job">SOHO</a>/<a href="http://yedingding.com/2013/07/24/remote-team-the-things-you-should-know.html">远程工作</a>的博客, 在微博及国内几家科技媒体上都反响热烈.</p>
-
-<p>而我最近开始执行村上春树工作作息方法, 几周下来颇有心得, 发过几条推特, 大家的好奇, 兴致, 疑问还挺多的, 用一篇博客来分享下自己的心得是最恰当不过的. 这个题材, 正好是我们 <a href="//Pragmatic.ly">Pragmatic.ly</a> 团队成员最近在写的<远程工作><团队协作><工作效率>系列.</p>
-
-<p>那么这篇博客就来讲讲, 我是如何借鉴’村上春树’的作息方式来降低工作时间, 提高工作效率的.</p>
-
-<h2>远程工作的问题</h2>
-
-<p><aside class="aside-block">
+  <p><aside class="aside-block">
   <blockquote>
-    <p>经常一不留神就从一个工作任务, 跑去看视频教程或维基百科了, 然后一整天就犹如贪食蛇一样拖下一串待读待学……</p>
+    <p>当下互联网设备「风起云涌」，显示分辨率「层出不穷」，为 Web 创建者们带来越来越多的难题……</p>
   </blockquote>
 </aside></p>
 
-<p>大家读过Dingding 的「<a href="http://yedingding.com/2013/07/24/remote-team-the-things-you-should-know.html">远程工作经验谈 — 如何适应及如何管理</a>」 都应该知道, 我们团队几个人很早就开始了远程工作的方式. 我本人是07年自学了Rails 然后做了个练手项目后, 开始和朋友接美国的项目做. 也在Intridea 做过一年的consultancy, 去年开始和Dingding, Terry 一起创业做产品, 到现在算起来应该有5年的远程工作经验. 这五年下来, 远程工作带来的好处就不多说了, 我能总结出的最大的问题, 就是’效率’问题.</p>
+<h2>前言</h2>
+
+<p>像素完美（Pixel Perfection）、分辨率无关（Resolution Independent）和多平台体验一致性是设计师们的追求。
+可访问性（Accessability）、加载性能和重构灵活性是前端工程师们关心的主题。</p>
+
+<p>当下互联网设备「风起云涌」，显示分辨率「层出不穷」，为 Web 创建者们带来越来越多的难题。</p>
+
+<ul>
+<li>需要为高PPI（aka Retina）显示设备准备@1.5x、@2x、@3x的图片素材；</li>
+<li>需要针对不同显示屏分辨率来调整优化排版；</li>
+<li>需要考虑多个分辨率版本的图片的加载性能问题；</li>
+<li>设备版本碎片化（Version Segmentation）带来的语义和可访问性的问题；</li>
+<li>……</li>
+</ul>
+
+<h2>响应式设计</h2>
+
+<p><img alt="Responsive Design" src="/images/2014-03-19/responsive-design.png?1395590798" /></p>
+
+<p>响应式设计（Responsive Design）作为「救世主」的身份，已经在 Web 界布道了好几年，丝毫不亚于当年的「Ajax」先生。其核心就是：针对不同设备和应用场景，作出合理性的适应。狭义地看，就是 Web page 在不同分辨率下借助 media qurey 来调整页面布局和内容显示，三个关键词是：Fluid grids, Flexible images, Media queries.</p>
+
+<p>其中 Flexible images 是最为棘手的地方。因为前面提到，现在的设备多样化，不同分辨率和不同 PPI 给图片自适应带来了空前复杂度。目前还没有一套完美的解决方案来应对，W3C那边还在拟定 <a href="http://www.w3.org/community/respimg/">Responsive Images</a> 和 <a href="http://www.w3.org/TR/2013/WD-html-picture-element-20130226/">Picture Element</a> 的相关标准。但在这之前你需要采取多管齐下的方式，针对媒体元素不同的使用场景，制定不同的自适应策略。目前主要有三种主流方式：</p>
 
 
   <p>
     ......
   </p>
   <p>
-    <a href="/improve-remote-work-productivity">Read more →</a>
+    <a href="/icons-fonts-as-your-responsive-strategy">Read more →</a>
   </p>
 </div>
 
