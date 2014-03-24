@@ -107,7 +107,7 @@ icon fonts 的制作主要有两条思路：
 我们「[风车](https://fengche.co)」去年底进行了一次改版，其中一项就是把原来位图图标全部转换成 icon fonts，当时采用的是阿里巴巴提供的免费在线工具 [iconfont.cn](http://www.iconfont.cn/)。
 
 <aside class="aside">
-  ![Alibaba iconfonts.cn](2014-03-19/alibaba-icon-fonts-cn.jpg)
+  ![Alibaba iconfont.cn](2014-03-19/alibaba-icon-fonts-cn.jpg)
 </aside>
 
 >  Iconfont.cn是由阿里巴巴UX部门推出的矢量图标管理网站，也是国内首家推广Webfont形式图标的平台。网站涵盖了1000多个常用图标并还在持续更新中，Iconfont平台为用户提供在线图标搜索、图标分捡下载、在线储存、矢量格式转换、个人图标库管理及项目图标管理等基础功能。
@@ -204,11 +204,11 @@ icon fonts 的制作主要有两条思路：
 
   比如： 这个Apple 平台特有的字符，就是用 U+F8FF 这个code point 来对应的，在其它平台就看不到那个字符。
 
-  阿里巴巴的 iconfonts.cn 没有遵循这个最佳实践，用得的是 CJK 编码区间（U+3432），所以当你浏览器加载字体出问题时，会还原成一些奇怪的中文文字，这对读屏软件也非常不友好。好在它的管理后台，可以手动的编辑这个 code point。
+  阿里巴巴的 iconfont.cn 没有遵循这个最佳实践，用得的是 CJK 编码区间（U+3432），所以当你浏览器加载字体出问题时，会还原成一些奇怪的中文文字，这对读屏软件也非常不友好。好在它的管理后台，可以手动的编辑这个 code point。
 
   另外，如果发现有 icon 显示不出来，或被替换成了其它字符，那么更换一下 code point 可能可以快速的解决。
 
-关于如何应用 icon fonts 到原生的 iOS/Android App 中去，iconfonts.cn 上面有[具体的教程](http://www.iconfont.cn/help/iconuse.html)，可以查看一下。
+关于如何应用 icon fonts 到原生的 iOS/Android App 中去，iconfont.cn 上面有[具体的教程](http://www.iconfont.cn/help/iconuse.html)，可以查看一下。
 
 #### 其它 icon fonts 工具
 类似 iconfont.cn 这类在线生成工具有很多，就不再一一详细介绍，最著名的还有：
@@ -218,7 +218,7 @@ icon fonts 的制作主要有两条思路：
 
 这些工具基本功能类似，但有少许功能差别，像 icomoon 还支持字体的连字（Ligatures）功能。通过设置 「bell」为铃铛图标的连字，当你在文本中写 「bell」时自动转换成铃铛图标。像 [fontfello](https://github.com/fontello/fontello) 是开源软件，意味着更加灵活和定制的可能性。
 
-如果你对使用英文软件完全没有障碍，我强烈建议使用 icomoon，体验和功能都非常强大。当然作为国内的同行，还是要支持一下 iconfonts.cn。
+如果你对使用英文软件完全没有障碍，我强烈建议使用 icomoon，体验和功能都非常强大。当然作为国内的同行，还是要支持一下 iconfont.cn。
 
 ## 结语
 icon fonts 作为 web fonts 的一种「特殊」应用，很好的解决了「响应式设计」中图形无损自适应的难题。设计师不再需要维护不同大小、不同颜色的多版本素材，图形矢量化之后，交给那些在线生成器就可以了。对于前端工程师，利用 HTML+CSS 就可以灵活的使用成百上千种图标，无需担心切图、定位、优化等传统位图要应付的情况。而用户，简洁、清晰的图标带给他们赏心悦目的感觉之外，浏览网站的速度体验也将大大提升。
