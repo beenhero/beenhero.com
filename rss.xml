@@ -142,7 +142,7 @@
 &lt;p&gt;我们「&lt;a href="https://fengche.co"&gt;风车&lt;/a&gt;」去年底进行了一次改版，其中一项就是把原来位图图标全部转换成 icon fonts，当时采用的是阿里巴巴提供的免费在线工具 &lt;a href="http://www.iconfont.cn/"&gt;iconfont.cn&lt;/a&gt;。&lt;/p&gt;
 
 &lt;p&gt;&lt;aside class="aside"&gt;
-  &lt;img alt="Alibaba iconfonts.cn" src="/images/2014-03-19/alibaba-icon-fonts-cn.jpg?1395590798" /&gt;
+  &lt;img alt="Alibaba iconfont.cn" src="/images/2014-03-19/alibaba-icon-fonts-cn.jpg?1395590798" /&gt;
 &lt;/aside&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -235,12 +235,12 @@
 
 &lt;p&gt;比如： 这个Apple 平台特有的字符，就是用 U+F8FF 这个code point 来对应的，在其它平台就看不到那个字符。&lt;/p&gt;
 
-&lt;p&gt;阿里巴巴的 iconfonts.cn 没有遵循这个最佳实践，用得的是 CJK 编码区间（U+3432），所以当你浏览器加载字体出问题时，会还原成一些奇怪的中文文字，这对读屏软件也非常不友好。好在它的管理后台，可以手动的编辑这个 code point。&lt;/p&gt;
+&lt;p&gt;阿里巴巴的 iconfont.cn 没有遵循这个最佳实践，用得的是 CJK 编码区间（U+3432），所以当你浏览器加载字体出问题时，会还原成一些奇怪的中文文字，这对读屏软件也非常不友好。好在它的管理后台，可以手动的编辑这个 code point。&lt;/p&gt;
 
 &lt;p&gt;另外，如果发现有 icon 显示不出来，或被替换成了其它字符，那么更换一下 code point 可能可以快速的解决。&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;关于如何应用 icon fonts 到原生的 iOS/Android App 中去，iconfonts.cn 上面有&lt;a href="http://www.iconfont.cn/help/iconuse.html"&gt;具体的教程&lt;/a&gt;，可以查看一下。&lt;/p&gt;
+&lt;p&gt;关于如何应用 icon fonts 到原生的 iOS/Android App 中去，iconfont.cn 上面有&lt;a href="http://www.iconfont.cn/help/iconuse.html"&gt;具体的教程&lt;/a&gt;，可以查看一下。&lt;/p&gt;
 
 &lt;h4&gt;其它 icon fonts 工具&lt;/h4&gt;
 
@@ -253,7 +253,7 @@
 
 &lt;p&gt;这些工具基本功能类似，但有少许功能差别，像 icomoon 还支持字体的连字（Ligatures）功能。通过设置 「bell」为铃铛图标的连字，当你在文本中写 「bell」时自动转换成铃铛图标。像 &lt;a href="https://github.com/fontello/fontello"&gt;fontfello&lt;/a&gt; 是开源软件，意味着更加灵活和定制的可能性。&lt;/p&gt;
 
-&lt;p&gt;如果你对使用英文软件完全没有障碍，我强烈建议使用 icomoon，体验和功能都非常强大。当然作为国内的同行，还是要支持一下 iconfonts.cn。&lt;/p&gt;
+&lt;p&gt;如果你对使用英文软件完全没有障碍，我强烈建议使用 icomoon，体验和功能都非常强大。当然作为国内的同行，还是要支持一下 iconfont.cn。&lt;/p&gt;
 
 &lt;h2&gt;结语&lt;/h2&gt;
 
